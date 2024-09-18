@@ -1,4 +1,4 @@
-name: SCA Scan Project 3
+name: SCA Scan Project 4
 on:
   push:
     branches:
