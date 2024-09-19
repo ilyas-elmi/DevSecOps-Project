@@ -18,7 +18,7 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Pull Docker Image
-        run: docker pull charliebanny/dockerhub:myfirstimagepush
+        run: docker pull ilyaselmi/dockerhub:latest
       - name: Install Trivy
         run: |
           curl -sfL https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
@@ -35,7 +35,7 @@ jobs:
       with:
         scan-type: 'image'
         scanners: 'vuln'
-        image-ref: charliebanny/dockerhub:myfirstimagepush
+        image-ref: ilyaselmi/dockerhub:latest
         scan-ref: '.'
         hide-progress: false
         format: 'table'
