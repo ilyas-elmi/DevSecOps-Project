@@ -5,7 +5,7 @@ This security document outlines a DevSecOps project implementation incorporating
 - Implement security measures throughout the software development lifecycle, creating a Secure Software Development Life Cycle (SSDLC).
 - Automate security testing to identify vulnerabilities early in the development process, shifting security left.
 - Integrate security into the CI/CD pipeline for continuous security monitoring.
-- Ensure compliance with security best practices and industry standards..
+- Ensure compliance with security best practices and industry standards.
 - Enable PR blocking for Critical and High Vulnerabilities.
 ## Components
 ### 1. Infrastructure as Code (IaC) Scanning
